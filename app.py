@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, origins=["*"])
 
-ngrok_url = "https://4d71-35-243-197-89.ngrok-free.app/"
+ngrok_url = "https://2570-34-106-203-172.ngrok-free.app/"
 
 @app.route('/')
 def index():
